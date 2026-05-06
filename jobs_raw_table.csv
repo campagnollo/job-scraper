@@ -1,215 +1,58 @@
-,id,site,job_url,job_url_direct,title,company,location,date_posted,is_remote,company_url
-0,li-4410294361,linkedin,https://www.linkedin.com/jobs/view/4410294361,,Lead Test Automation Engineer,Labcorp,"Durham, NC",,False,https://www.linkedin.com/company/labcorp
-1,li-4410512879,linkedin,https://www.linkedin.com/jobs/view/4410512879,,Controls Engineer - URGENTLY HIRING,Actalent,"Durham, NC",,False,https://www.linkedin.com/company/actalentservices
-2,li-4410280678,linkedin,https://www.linkedin.com/jobs/view/4410280678,,Lead Test Automation Engineer,Labcorp,"North Carolina, United States",,False,https://www.linkedin.com/company/labcorp
-3,li-4399682461,linkedin,https://www.linkedin.com/jobs/view/4399682461,,AI Software Engineer,"V-Soft Consulting Group, Inc.","Raleigh, NC",,False,https://www.linkedin.com/company/vsoftconsulting
-4,li-4396372620,linkedin,https://www.linkedin.com/jobs/view/4396372620,,Electrical Engineer 2,POWERX,"Raleigh, NC",,False,https://www.linkedin.com/company/powerxco
-5,li-4408995430,linkedin,https://www.linkedin.com/jobs/view/4408995430,,Software Engineer,Red Hat,"Raleigh, NC",,False,https://www.linkedin.com/company/red-hat
-6,li-4410277270,linkedin,https://www.linkedin.com/jobs/view/4410277270,,R&D Engineering Intern (In Vivo Imaging),Revvity,"Morrisville, NC",,False,https://www.linkedin.com/company/revvity
-7,li-4410274505,linkedin,https://www.linkedin.com/jobs/view/4410274505,,R&D Engineering Intern (In Vivo Imaging),Revvity,"Morrisville, NC",,False,https://www.linkedin.com/company/revvity
-8,li-4399734794,linkedin,https://www.linkedin.com/jobs/view/4399734794,,Senior Electrical Engineer [Hybrid],Jobot,"Durham, NC",,False,https://www.linkedin.com/company/jobot
-9,li-4410289008,linkedin,https://www.linkedin.com/jobs/view/4410289008,,Cybersecurity Senior Engineer - Certificate Automation Engineer,Truist,"Raleigh, NC",,False,https://www.linkedin.com/company/truistfinancialcorporation
-10,li-4399630976,linkedin,https://www.linkedin.com/jobs/view/4399630976,,"Software Engineer, Telco",Red Hat,"Raleigh, NC",,False,https://www.linkedin.com/company/red-hat
-11,li-4410266312,linkedin,https://www.linkedin.com/jobs/view/4410266312,,Senior Software Engineer,Syngenta,"Durham, NC",,False,https://ch.linkedin.com/company/syngenta
-12,li-4409599880,linkedin,https://www.linkedin.com/jobs/view/4409599880,,Senior Software Engineer,Optum,"Raleigh, NC",,False,https://www.linkedin.com/company/optum
-13,li-4410269867,linkedin,https://www.linkedin.com/jobs/view/4410269867,,Cybersecurity Senior Engineer - Certificate Automation Engineer,Truist,"Wilson, NC",,False,https://www.linkedin.com/company/truistfinancialcorporation
-14,li-4408941743,linkedin,https://www.linkedin.com/jobs/view/4408941743,,AI Developer Advocate,Red Hat,"Raleigh, NC",,False,https://www.linkedin.com/company/red-hat
-15,li-4408944512,linkedin,https://www.linkedin.com/jobs/view/4408944512,,Labview Developer,Jobs via Dice,"North Carolina, United States",,False,https://www.linkedin.com/company/jobs-via-dice
-16,li-4408951024,linkedin,https://www.linkedin.com/jobs/view/4408951024,,"Senior System Software Engineer, Holoscan",NVIDIA,"North Carolina, United States",,False,https://www.linkedin.com/company/nvidia
-17,li-4408932998,linkedin,https://www.linkedin.com/jobs/view/4408932998,,"Senior System Software Engineer, Holoscan",NVIDIA,"Durham, NC",,False,https://www.linkedin.com/company/nvidia
-18,li-4401508309,linkedin,https://www.linkedin.com/jobs/view/4401508309,,Empower Integration Engineer (Labvantage),ProPharma,"Raleigh, NC",,False,https://www.linkedin.com/company/propharma-group
-19,li-4390743461,linkedin,https://www.linkedin.com/jobs/view/4390743461,,Principal Software Engineer,Red Hat,"Raleigh, NC",,False,https://www.linkedin.com/company/red-hat
-20,li-4396337719,linkedin,https://www.linkedin.com/jobs/view/4396337719,,Lead Cybersecurity Automation Engineer,Synopsys Inc,"Morrisville, NC",,False,https://www.linkedin.com/company/synopsys
-21,li-4410269357,linkedin,https://www.linkedin.com/jobs/view/4410269357,,Assistant Vice President – {TS9950127},Deutsche Bank,"Cary, NC",,False,https://de.linkedin.com/company/deutsche-bank
-22,li-4410296023,linkedin,https://www.linkedin.com/jobs/view/4410296023,,Project Engineer / Assistant Project Manager,CAM Contractors,"Spring Lake, NC",,False,https://www.linkedin.com/company/cam-contractors-nc
-23,li-4410298023,linkedin,https://www.linkedin.com/jobs/view/4410298023,,Project Engineer (EIT),Actalent,"Apex, NC",,False,https://www.linkedin.com/company/actalentservices
-24,li-4408163841,linkedin,https://www.linkedin.com/jobs/view/4408163841,,TMS Configuration Engineer,World Courier,"North Carolina, United States",,False,https://uk.linkedin.com/company/world-courier
-25,li-4410281310,linkedin,https://www.linkedin.com/jobs/view/4410281310,,NAS-Advisory Engineer,Zachry Group,"Cary, NC",,False,https://www.linkedin.com/company/zachry-group
-26,li-4408945465,linkedin,https://www.linkedin.com/jobs/view/4408945465,,Catalog Developer,Jobs via Dice,"North Carolina, United States",,False,https://www.linkedin.com/company/jobs-via-dice
-27,li-4408954308,linkedin,https://www.linkedin.com/jobs/view/4408954308,,Azure IAM Engineer (DevOps),Piper Companies,"Raleigh, NC",,False,https://www.linkedin.com/company/pipercompanies
-28,li-4407089012,linkedin,https://www.linkedin.com/jobs/view/4407089012,,Senior Systems Engineer,WakeMed,"Raleigh, NC",,False,https://www.linkedin.com/company/wakemed
-29,li-4409340222,linkedin,https://www.linkedin.com/jobs/view/4409340222,,Technical Support Engineer Tier I,Action1,"North Carolina, United States",,False,https://www.linkedin.com/company/action1corp
-30,li-4294490577,linkedin,https://www.linkedin.com/jobs/view/4294490577,,Data Platform Engineer,Q2,"Cary, NC",,False,https://www.linkedin.com/company/q2software
-31,li-4408164188,linkedin,https://www.linkedin.com/jobs/view/4408164188,,Client Engineering Platform Engineer - Z Application Modermization,IBM,"Raleigh, NC",,False,https://www.linkedin.com/company/ibm
-32,li-4408156206,linkedin,https://www.linkedin.com/jobs/view/4408156206,,Client Engineering Platform Engineer - Z Application Modermization,IBM,"Durham, NC",,False,https://www.linkedin.com/company/ibm
-33,li-4363846359,linkedin,https://www.linkedin.com/jobs/view/4363846359,,Lead ServiceNow Software Engineer,Deloitte,"Raleigh, NC",,False,https://www.linkedin.com/company/deloitte
-34,li-4401572907,linkedin,https://www.linkedin.com/jobs/view/4401572907,,Senior Data Scientist,Sprinklr,"North Carolina, United States",,False,https://www.linkedin.com/company/sprinklr
-,id,site,job_url,job_url_direct,title,company,location,date_posted,is_remote,company_url
-0,li-4410512879,linkedin,https://www.linkedin.com/jobs/view/4410512879,,Controls Engineer - URGENTLY HIRING,Actalent,"Durham, NC",,False,https://www.linkedin.com/company/actalentservices
-1,li-4410294361,linkedin,https://www.linkedin.com/jobs/view/4410294361,,Lead Test Automation Engineer,Labcorp,"Durham, NC",,False,https://www.linkedin.com/company/labcorp
-2,li-4410280678,linkedin,https://www.linkedin.com/jobs/view/4410280678,,Lead Test Automation Engineer,Labcorp,"North Carolina, United States",,False,https://www.linkedin.com/company/labcorp
-3,li-4396372620,linkedin,https://www.linkedin.com/jobs/view/4396372620,,Electrical Engineer 2,POWERX,"Raleigh, NC",,False,https://www.linkedin.com/company/powerxco
-4,li-4399682461,linkedin,https://www.linkedin.com/jobs/view/4399682461,,AI Software Engineer,"V-Soft Consulting Group, Inc.","Raleigh, NC",,False,https://www.linkedin.com/company/vsoftconsulting
-5,li-4408995430,linkedin,https://www.linkedin.com/jobs/view/4408995430,,Software Engineer,Red Hat,"Raleigh, NC",,False,https://www.linkedin.com/company/red-hat
-6,li-4410277270,linkedin,https://www.linkedin.com/jobs/view/4410277270,,R&D Engineering Intern (In Vivo Imaging),Revvity,"Morrisville, NC",,False,https://www.linkedin.com/company/revvity
-7,li-4410274505,linkedin,https://www.linkedin.com/jobs/view/4410274505,,R&D Engineering Intern (In Vivo Imaging),Revvity,"Morrisville, NC",,False,https://www.linkedin.com/company/revvity
-8,li-4410266312,linkedin,https://www.linkedin.com/jobs/view/4410266312,,Senior Software Engineer,Syngenta,"Durham, NC",,False,https://ch.linkedin.com/company/syngenta
-9,li-4399734794,linkedin,https://www.linkedin.com/jobs/view/4399734794,,Senior Electrical Engineer [Hybrid],Jobot,"Durham, NC",,False,https://www.linkedin.com/company/jobot
-10,li-4410289008,linkedin,https://www.linkedin.com/jobs/view/4410289008,,Cybersecurity Senior Engineer - Certificate Automation Engineer,Truist,"Raleigh, NC",,False,https://www.linkedin.com/company/truistfinancialcorporation
-11,li-4409599880,linkedin,https://www.linkedin.com/jobs/view/4409599880,,Senior Software Engineer,Optum,"Raleigh, NC",,False,https://www.linkedin.com/company/optum
-12,li-4399630976,linkedin,https://www.linkedin.com/jobs/view/4399630976,,"Software Engineer, Telco",Red Hat,"Raleigh, NC",,False,https://www.linkedin.com/company/red-hat
-13,li-4408932998,linkedin,https://www.linkedin.com/jobs/view/4408932998,,"Senior System Software Engineer, Holoscan",NVIDIA,"Durham, NC",,False,https://www.linkedin.com/company/nvidia
-14,li-4408944512,linkedin,https://www.linkedin.com/jobs/view/4408944512,,Labview Developer,Jobs via Dice,"North Carolina, United States",,False,https://www.linkedin.com/company/jobs-via-dice
-15,li-4408951024,linkedin,https://www.linkedin.com/jobs/view/4408951024,,"Senior System Software Engineer, Holoscan",NVIDIA,"North Carolina, United States",,False,https://www.linkedin.com/company/nvidia
-16,li-4401508309,linkedin,https://www.linkedin.com/jobs/view/4401508309,,Empower Integration Engineer (Labvantage),ProPharma,"Raleigh, NC",,False,https://www.linkedin.com/company/propharma-group
-17,li-4408975567,linkedin,https://www.linkedin.com/jobs/view/4408975567,,"Staff Software Engineer – Data Team (Menlo Park, CA) #4433",BioSpace,"Durham, NC",,False,https://www.linkedin.com/company/biospaceinc
-18,li-4396337719,linkedin,https://www.linkedin.com/jobs/view/4396337719,,Lead Cybersecurity Automation Engineer,Synopsys Inc,"Morrisville, NC",,False,https://www.linkedin.com/company/synopsys
-19,li-4408941743,linkedin,https://www.linkedin.com/jobs/view/4408941743,,AI Developer Advocate,Red Hat,"Raleigh, NC",,False,https://www.linkedin.com/company/red-hat
-20,li-4410269357,linkedin,https://www.linkedin.com/jobs/view/4410269357,,Assistant Vice President – {TS9950127},Deutsche Bank,"Cary, NC",,False,https://de.linkedin.com/company/deutsche-bank
-21,li-4410298023,linkedin,https://www.linkedin.com/jobs/view/4410298023,,Project Engineer (EIT),Actalent,"Apex, NC",,False,https://www.linkedin.com/company/actalentservices
-22,li-4408163841,linkedin,https://www.linkedin.com/jobs/view/4408163841,,TMS Configuration Engineer,World Courier,"North Carolina, United States",,False,https://uk.linkedin.com/company/world-courier
-23,li-4410281310,linkedin,https://www.linkedin.com/jobs/view/4410281310,,NAS-Advisory Engineer,Zachry Group,"Cary, NC",,False,https://www.linkedin.com/company/zachry-group
-24,li-4408945465,linkedin,https://www.linkedin.com/jobs/view/4408945465,,Catalog Developer,Jobs via Dice,"North Carolina, United States",,False,https://www.linkedin.com/company/jobs-via-dice
-25,li-4408954308,linkedin,https://www.linkedin.com/jobs/view/4408954308,,Azure IAM Engineer (DevOps),Piper Companies,"Raleigh, NC",,False,https://www.linkedin.com/company/pipercompanies
-26,li-4407089012,linkedin,https://www.linkedin.com/jobs/view/4407089012,,Senior Systems Engineer,WakeMed,"Raleigh, NC",,False,https://www.linkedin.com/company/wakemed
-27,li-4409340222,linkedin,https://www.linkedin.com/jobs/view/4409340222,,Technical Support Engineer Tier I,Action1,"North Carolina, United States",,False,https://www.linkedin.com/company/action1corp
-28,li-4294490577,linkedin,https://www.linkedin.com/jobs/view/4294490577,,Data Platform Engineer,Q2,"Cary, NC",,False,https://www.linkedin.com/company/q2software
-29,li-4408156206,linkedin,https://www.linkedin.com/jobs/view/4408156206,,Client Engineering Platform Engineer - Z Application Modermization,IBM,"Durham, NC",,False,https://www.linkedin.com/company/ibm
-30,li-4408164188,linkedin,https://www.linkedin.com/jobs/view/4408164188,,Client Engineering Platform Engineer - Z Application Modermization,IBM,"Raleigh, NC",,False,https://www.linkedin.com/company/ibm
-31,li-4363846359,linkedin,https://www.linkedin.com/jobs/view/4363846359,,Lead ServiceNow Software Engineer,Deloitte,"Raleigh, NC",,False,https://www.linkedin.com/company/deloitte
-32,li-4401572907,linkedin,https://www.linkedin.com/jobs/view/4401572907,,Senior Data Scientist,Sprinklr,"North Carolina, United States",,False,https://www.linkedin.com/company/sprinklr
-,id,site,job_url,job_url_direct,title,company,location,date_posted,is_remote,company_url
-0,li-4410512879,linkedin,https://www.linkedin.com/jobs/view/4410512879,,Controls Engineer - URGENTLY HIRING,Actalent,"Durham, NC",,False,https://www.linkedin.com/company/actalentservices
-1,li-4410294361,linkedin,https://www.linkedin.com/jobs/view/4410294361,,Lead Test Automation Engineer,Labcorp,"Durham, NC",,False,https://www.linkedin.com/company/labcorp
-2,li-4410280678,linkedin,https://www.linkedin.com/jobs/view/4410280678,,Lead Test Automation Engineer,Labcorp,"North Carolina, United States",,False,https://www.linkedin.com/company/labcorp
-3,li-4396372620,linkedin,https://www.linkedin.com/jobs/view/4396372620,,Electrical Engineer 2,POWERX,"Raleigh, NC",,False,https://www.linkedin.com/company/powerxco
-4,li-4399682461,linkedin,https://www.linkedin.com/jobs/view/4399682461,,AI Software Engineer,"V-Soft Consulting Group, Inc.","Raleigh, NC",,False,https://www.linkedin.com/company/vsoftconsulting
-5,li-4408995430,linkedin,https://www.linkedin.com/jobs/view/4408995430,,Software Engineer,Red Hat,"Raleigh, NC",,False,https://www.linkedin.com/company/red-hat
-6,li-4410277270,linkedin,https://www.linkedin.com/jobs/view/4410277270,,R&D Engineering Intern (In Vivo Imaging),Revvity,"Morrisville, NC",,False,https://www.linkedin.com/company/revvity
-7,li-4410274505,linkedin,https://www.linkedin.com/jobs/view/4410274505,,R&D Engineering Intern (In Vivo Imaging),Revvity,"Morrisville, NC",,False,https://www.linkedin.com/company/revvity
-8,li-4399734794,linkedin,https://www.linkedin.com/jobs/view/4399734794,,Senior Electrical Engineer [Hybrid],Jobot,"Durham, NC",,False,https://www.linkedin.com/company/jobot
-9,li-4410289008,linkedin,https://www.linkedin.com/jobs/view/4410289008,,Cybersecurity Senior Engineer - Certificate Automation Engineer,Truist,"Raleigh, NC",,False,https://www.linkedin.com/company/truistfinancialcorporation
-10,li-4410266312,linkedin,https://www.linkedin.com/jobs/view/4410266312,,Senior Software Engineer,Syngenta,"Durham, NC",,False,https://ch.linkedin.com/company/syngenta
-11,li-4410285076,linkedin,https://www.linkedin.com/jobs/view/4410285076,,Cybersecurity Senior Engineer - Certificate Automation Engineer,Truist,"Greensboro, NC",,False,https://www.linkedin.com/company/truistfinancialcorporation
-12,li-4409599880,linkedin,https://www.linkedin.com/jobs/view/4409599880,,Senior Software Engineer,Optum,"Raleigh, NC",,False,https://www.linkedin.com/company/optum
-13,li-4399630976,linkedin,https://www.linkedin.com/jobs/view/4399630976,,"Software Engineer, Telco",Red Hat,"Raleigh, NC",,False,https://www.linkedin.com/company/red-hat
-14,li-4408944512,linkedin,https://www.linkedin.com/jobs/view/4408944512,,Labview Developer,Jobs via Dice,"North Carolina, United States",,False,https://www.linkedin.com/company/jobs-via-dice
-15,li-4408932998,linkedin,https://www.linkedin.com/jobs/view/4408932998,,"Senior System Software Engineer, Holoscan",NVIDIA,"Durham, NC",,False,https://www.linkedin.com/company/nvidia
-16,li-4408951024,linkedin,https://www.linkedin.com/jobs/view/4408951024,,"Senior System Software Engineer, Holoscan",NVIDIA,"North Carolina, United States",,False,https://www.linkedin.com/company/nvidia
-17,li-4401508309,linkedin,https://www.linkedin.com/jobs/view/4401508309,,Empower Integration Engineer (Labvantage),ProPharma,"Raleigh, NC",,False,https://www.linkedin.com/company/propharma-group
-18,li-4396337719,linkedin,https://www.linkedin.com/jobs/view/4396337719,,Lead Cybersecurity Automation Engineer,Synopsys Inc,"Morrisville, NC",,False,https://www.linkedin.com/company/synopsys
-19,li-4408941743,linkedin,https://www.linkedin.com/jobs/view/4408941743,,AI Developer Advocate,Red Hat,"Raleigh, NC",,False,https://www.linkedin.com/company/red-hat
-20,li-4410269357,linkedin,https://www.linkedin.com/jobs/view/4410269357,,Assistant Vice President – {TS9950127},Deutsche Bank,"Cary, NC",,False,https://de.linkedin.com/company/deutsche-bank
-21,li-4410298023,linkedin,https://www.linkedin.com/jobs/view/4410298023,,Project Engineer (EIT),Actalent,"Apex, NC",,False,https://www.linkedin.com/company/actalentservices
-22,li-4408163841,linkedin,https://www.linkedin.com/jobs/view/4408163841,,TMS Configuration Engineer,World Courier,"North Carolina, United States",,False,https://uk.linkedin.com/company/world-courier
-23,li-4410281310,linkedin,https://www.linkedin.com/jobs/view/4410281310,,NAS-Advisory Engineer,Zachry Group,"Cary, NC",,False,https://www.linkedin.com/company/zachry-group
-24,li-4408945465,linkedin,https://www.linkedin.com/jobs/view/4408945465,,Catalog Developer,Jobs via Dice,"North Carolina, United States",,False,https://www.linkedin.com/company/jobs-via-dice
-25,li-4408954308,linkedin,https://www.linkedin.com/jobs/view/4408954308,,Azure IAM Engineer (DevOps),Piper Companies,"Raleigh, NC",,False,https://www.linkedin.com/company/pipercompanies
-26,li-4407089012,linkedin,https://www.linkedin.com/jobs/view/4407089012,,Senior Systems Engineer,WakeMed,"Raleigh, NC",,False,https://www.linkedin.com/company/wakemed
-27,li-4409340222,linkedin,https://www.linkedin.com/jobs/view/4409340222,,Technical Support Engineer Tier I,Action1,"North Carolina, United States",,False,https://www.linkedin.com/company/action1corp
-28,li-4294490577,linkedin,https://www.linkedin.com/jobs/view/4294490577,,Data Platform Engineer,Q2,"Cary, NC",,False,https://www.linkedin.com/company/q2software
-29,li-4408156206,linkedin,https://www.linkedin.com/jobs/view/4408156206,,Client Engineering Platform Engineer - Z Application Modermization,IBM,"Durham, NC",,False,https://www.linkedin.com/company/ibm
-30,li-4408164188,linkedin,https://www.linkedin.com/jobs/view/4408164188,,Client Engineering Platform Engineer - Z Application Modermization,IBM,"Raleigh, NC",,False,https://www.linkedin.com/company/ibm
-31,li-4363846359,linkedin,https://www.linkedin.com/jobs/view/4363846359,,Lead ServiceNow Software Engineer,Deloitte,"Raleigh, NC",,False,https://www.linkedin.com/company/deloitte
-32,li-4401572907,linkedin,https://www.linkedin.com/jobs/view/4401572907,,Senior Data Scientist,Sprinklr,"North Carolina, United States",,False,https://www.linkedin.com/company/sprinklr
-,id,site,job_url,job_url_direct,title,company,location,date_posted,is_remote,company_url
-0,li-4408177014,linkedin,https://www.linkedin.com/jobs/view/4408177014,,Controls/Automation Engineer,CyberCoders,"Claremont, NC",,False,https://www.linkedin.com/company/cybercoders
-1,li-4410293919,linkedin,https://www.linkedin.com/jobs/view/4410293919,,Quality Assurance Automation Engineer,InsitePeek: AI x Quality Engineering,"Charlotte, NC",,False,https://www.linkedin.com/company/insitepeek
-2,li-4396372620,linkedin,https://www.linkedin.com/jobs/view/4396372620,,Electrical Engineer 2,POWERX,"Raleigh, NC",,False,https://www.linkedin.com/company/powerxco
-3,li-4408173987,linkedin,https://www.linkedin.com/jobs/view/4408173987,,Automation Engineer III,Thermo Fisher Scientific,"Greenville, NC",,False,https://www.linkedin.com/company/thermo-fisher-scientific
-4,li-4410280678,linkedin,https://www.linkedin.com/jobs/view/4410280678,,Lead Test Automation Engineer,Labcorp,"North Carolina, United States",,False,https://www.linkedin.com/company/labcorp
-5,li-4410294361,linkedin,https://www.linkedin.com/jobs/view/4410294361,,Lead Test Automation Engineer,Labcorp,"Durham, NC",,False,https://www.linkedin.com/company/labcorp
-6,li-4399682461,linkedin,https://www.linkedin.com/jobs/view/4399682461,,AI Software Engineer,"V-Soft Consulting Group, Inc.","Raleigh, NC",,False,https://www.linkedin.com/company/vsoftconsulting
-7,li-4410526333,linkedin,https://www.linkedin.com/jobs/view/4410526333,,Senior Software Engineer (Sustaining Automation),Sequoia Capital Global Equities,"Canada, NC",,False,https://www.linkedin.com/company/sequoia-capital-global-equities
-8,li-4408943376,linkedin,https://www.linkedin.com/jobs/view/4408943376,,Senior Software Engineer (Sustaining Automation),Lightspeed,"Canada, NC",,False,https://www.linkedin.com/company/lightspeed-venture-partners
-9,li-4410512879,linkedin,https://www.linkedin.com/jobs/view/4410512879,,Controls Engineer - URGENTLY HIRING,Actalent,"Durham, NC",,False,https://www.linkedin.com/company/actalentservices
-10,li-4408995430,linkedin,https://www.linkedin.com/jobs/view/4408995430,,Software Engineer,Red Hat,"Raleigh, NC",,False,https://www.linkedin.com/company/red-hat
-11,li-4399734794,linkedin,https://www.linkedin.com/jobs/view/4399734794,,Senior Electrical Engineer [Hybrid],Jobot,"Durham, NC",,False,https://www.linkedin.com/company/jobot
-12,li-4410277270,linkedin,https://www.linkedin.com/jobs/view/4410277270,,R&D Engineering Intern (In Vivo Imaging),Revvity,"Morrisville, NC",,False,https://www.linkedin.com/company/revvity
-13,li-4410274505,linkedin,https://www.linkedin.com/jobs/view/4410274505,,R&D Engineering Intern (In Vivo Imaging),Revvity,"Morrisville, NC",,False,https://www.linkedin.com/company/revvity
-14,li-4410278457,linkedin,https://www.linkedin.com/jobs/view/4410278457,,Cybersecurity Senior Engineer - Certificate Automation Engineer,Truist,"Charlotte, NC",,False,https://www.linkedin.com/company/truistfinancialcorporation
-15,li-4410525608,linkedin,https://www.linkedin.com/jobs/view/4410525608,,"Junior Developer, (On-Site Position) Charlotte, NC",OneCloud,"Charlotte, NC",,False,https://www.linkedin.com/company/onecloudvoip
-16,li-4408946473,linkedin,https://www.linkedin.com/jobs/view/4408946473,,Software Engineer: Design System,Jack Henry,"Charlotte, NC",,False,https://www.linkedin.com/company/jack-henry
-17,li-4410289008,linkedin,https://www.linkedin.com/jobs/view/4410289008,,Cybersecurity Senior Engineer - Certificate Automation Engineer,Truist,"Raleigh, NC",,False,https://www.linkedin.com/company/truistfinancialcorporation
-18,li-4410285076,linkedin,https://www.linkedin.com/jobs/view/4410285076,,Cybersecurity Senior Engineer - Certificate Automation Engineer,Truist,"Greensboro, NC",,False,https://www.linkedin.com/company/truistfinancialcorporation
-19,li-4410269867,linkedin,https://www.linkedin.com/jobs/view/4410269867,,Cybersecurity Senior Engineer - Certificate Automation Engineer,Truist,"Wilson, NC",,False,https://www.linkedin.com/company/truistfinancialcorporation
-20,li-4396337719,linkedin,https://www.linkedin.com/jobs/view/4396337719,,Lead Cybersecurity Automation Engineer,Synopsys Inc,"Morrisville, NC",,False,https://www.linkedin.com/company/synopsys
-21,li-4408941743,linkedin,https://www.linkedin.com/jobs/view/4408941743,,AI Developer Advocate,Red Hat,"Raleigh, NC",,False,https://www.linkedin.com/company/red-hat
-22,li-4401722642,linkedin,https://www.linkedin.com/jobs/view/4401722642,,Senior Staff Software Engineer,Intuit,"Charlotte, NC",,False,https://www.linkedin.com/company/intuit
-23,li-4408952421,linkedin,https://www.linkedin.com/jobs/view/4408952421,,Software Engineer,Jobs via Dice,"Charlotte, NC",,False,https://www.linkedin.com/company/jobs-via-dice
-24,li-4390743461,linkedin,https://www.linkedin.com/jobs/view/4390743461,,Principal Software Engineer,Red Hat,"Raleigh, NC",,False,https://www.linkedin.com/company/red-hat
-25,li-4408941566,linkedin,https://www.linkedin.com/jobs/view/4408941566,,UiPath Developer with C#.Net and Python,Jobs via Dice,"Charlotte, NC",,False,https://www.linkedin.com/company/jobs-via-dice
-26,li-4404288372,linkedin,https://www.linkedin.com/jobs/view/4404288372,,"Lead Engineer I, Tech Engineering",KPMG US,"Winston-Salem, NC",,False,https://www.linkedin.com/company/kpmg-us
-27,li-4408975567,linkedin,https://www.linkedin.com/jobs/view/4408975567,,"Staff Software Engineer – Data Team (Menlo Park, CA) #4433",BioSpace,"Durham, NC",,False,https://www.linkedin.com/company/biospaceinc
-28,li-4410298023,linkedin,https://www.linkedin.com/jobs/view/4410298023,,Project Engineer (EIT),Actalent,"Apex, NC",,False,https://www.linkedin.com/company/actalentservices
-29,li-4410566009,linkedin,https://www.linkedin.com/jobs/view/4410566009,,Lead Software Engineer,Wells Fargo,"Charlotte, NC",,False,https://www.linkedin.com/company/wellsfargo
-30,li-4407658427,linkedin,https://www.linkedin.com/jobs/view/4407658427,,"Application Engineer - III, Secure Site, Code Squad",Vanguard,"Charlotte, NC",,False,https://www.linkedin.com/company/vanguard
-31,li-4408125466,linkedin,https://www.linkedin.com/jobs/view/4408125466,,"QA Testing Specialist (Application Security / FTE / Hybrid / USC, GC, H4/L2 EAD)",NTT DATA North America,"Charlotte, NC",,False,https://www.linkedin.com/company/ntt-data-americas
-32,li-4401508309,linkedin,https://www.linkedin.com/jobs/view/4401508309,,Empower Integration Engineer (Labvantage),ProPharma,"Raleigh, NC",,False,https://www.linkedin.com/company/propharma-group
-33,li-4410269357,linkedin,https://www.linkedin.com/jobs/view/4410269357,,Assistant Vice President – {TS9950127},Deutsche Bank,"Cary, NC",,False,https://de.linkedin.com/company/deutsche-bank
-34,li-4399630976,linkedin,https://www.linkedin.com/jobs/view/4399630976,,"Software Engineer, Telco",Red Hat,"Raleigh, NC",,False,https://www.linkedin.com/company/red-hat
-35,li-4388993135,linkedin,https://www.linkedin.com/jobs/view/4388993135,,Protection and Relaying Project Engineer *,HDR,"Charlotte, NC",,False,https://www.linkedin.com/company/hdr
-36,li-4410296023,linkedin,https://www.linkedin.com/jobs/view/4410296023,,Project Engineer / Assistant Project Manager,CAM Contractors,"Spring Lake, NC",,False,https://www.linkedin.com/company/cam-contractors-nc
-37,li-4388989230,linkedin,https://www.linkedin.com/jobs/view/4388989230,,Protection and Relaying Project Engineer *,HDR,"Winston-Salem, NC",,False,https://www.linkedin.com/company/hdr
-38,li-4410281310,linkedin,https://www.linkedin.com/jobs/view/4410281310,,NAS-Advisory Engineer,Zachry Group,"Cary, NC",,False,https://www.linkedin.com/company/zachry-group
-39,li-4307693501,linkedin,https://www.linkedin.com/jobs/view/4307693501,,"Senior Software Engineer, Backend (Merchant Interfaces)",Affirm,"Charlotte, NC",,False,https://www.linkedin.com/company/affirm
-40,li-4408135266,linkedin,https://www.linkedin.com/jobs/view/4408135266,,"Sr. Java Developer (Application Security / FTE / Hybrid / USC, GC, H4/L2 EAD)",NTT DATA North America,"Charlotte, NC",,False,https://www.linkedin.com/company/ntt-data-americas
-41,li-4408941527,linkedin,https://www.linkedin.com/jobs/view/4408941527,,Senior Technical Lead - PL,Jobs via Dice,"Charlotte, NC",,False,https://www.linkedin.com/company/jobs-via-dice
-42,li-4408942507,linkedin,https://www.linkedin.com/jobs/view/4408942507,,"Arize AI , Claude Cowork, Google Cloud Platform , Terraform :Local to Charlotte NC",Jobs via Dice,"Charlotte, NC",,False,https://www.linkedin.com/company/jobs-via-dice
-43,li-4408951413,linkedin,https://www.linkedin.com/jobs/view/4408951413,,Senior Salesforce Developer,Jobs via Dice,"Charlotte, NC",,False,https://www.linkedin.com/company/jobs-via-dice
-44,li-4408954308,linkedin,https://www.linkedin.com/jobs/view/4408954308,,Azure IAM Engineer (DevOps),Piper Companies,"Raleigh, NC",,False,https://www.linkedin.com/company/pipercompanies
-45,li-4399571279,linkedin,https://www.linkedin.com/jobs/view/4399571279,,Azure Data Engineer,"Hearst Television, Charlotte","Charlotte, NC",,False,https://www.linkedin.com/company/hearst-television-charlotte
-46,li-4408945465,linkedin,https://www.linkedin.com/jobs/view/4408945465,,Catalog Developer,Jobs via Dice,"North Carolina, United States",,False,https://www.linkedin.com/company/jobs-via-dice
-47,li-4408163841,linkedin,https://www.linkedin.com/jobs/view/4408163841,,TMS Configuration Engineer,World Courier,"North Carolina, United States",,False,https://uk.linkedin.com/company/world-courier
-48,li-4408947467,linkedin,https://www.linkedin.com/jobs/view/4408947467,,Senior Power Platform & Copilot Studio Developer,Jobs via Dice,"Charlotte, NC",,False,https://www.linkedin.com/company/jobs-via-dice
-49,li-4409340222,linkedin,https://www.linkedin.com/jobs/view/4409340222,,Technical Support Engineer Tier I,Action1,"North Carolina, United States",,False,https://www.linkedin.com/company/action1corp
-50,li-4410553337,linkedin,https://www.linkedin.com/jobs/view/4410553337,,Lead Infrastructure Platform Support Engineer,Wells Fargo,"Charlotte, NC",,False,https://www.linkedin.com/company/wellsfargo
-51,li-4408944512,linkedin,https://www.linkedin.com/jobs/view/4408944512,,Labview Developer,Jobs via Dice,"North Carolina, United States",,False,https://www.linkedin.com/company/jobs-via-dice
-52,li-4294490577,linkedin,https://www.linkedin.com/jobs/view/4294490577,,Data Platform Engineer,Q2,"Cary, NC",,False,https://www.linkedin.com/company/q2software
-53,li-4408953444,linkedin,https://www.linkedin.com/jobs/view/4408953444,,DevOps Developer,Jobs via Dice,"Carolina Beach, NC",,False,https://www.linkedin.com/company/jobs-via-dice
-54,li-4408156206,linkedin,https://www.linkedin.com/jobs/view/4408156206,,Client Engineering Platform Engineer - Z Application Modermization,IBM,"Durham, NC",,False,https://www.linkedin.com/company/ibm
-55,li-4408156205,linkedin,https://www.linkedin.com/jobs/view/4408156205,,Client Engineering Platform Engineer - Z Application Modermization,IBM,"Charlotte, NC",,False,https://www.linkedin.com/company/ibm
-56,li-4408164188,linkedin,https://www.linkedin.com/jobs/view/4408164188,,Client Engineering Platform Engineer - Z Application Modermization,IBM,"Raleigh, NC",,False,https://www.linkedin.com/company/ibm
-57,li-4364056365,linkedin,https://www.linkedin.com/jobs/view/4364056365,,Lead ServiceNow Software Engineer,Deloitte,"Charlotte, NC",,False,https://www.linkedin.com/company/deloitte
-58,li-4363846359,linkedin,https://www.linkedin.com/jobs/view/4363846359,,Lead ServiceNow Software Engineer,Deloitte,"Raleigh, NC",,False,https://www.linkedin.com/company/deloitte
-59,li-4398290037,linkedin,https://www.linkedin.com/jobs/view/4398290037,,Senior Application Engineer (CNC & Machine Tools),Kensington360,"Charlotte, NC",,False,https://uk.linkedin.com/company/kensington360
-60,li-4401572907,linkedin,https://www.linkedin.com/jobs/view/4401572907,,Senior Data Scientist,Sprinklr,"North Carolina, United States",,False,https://www.linkedin.com/company/sprinklr
-61,li-4410261669,linkedin,https://www.linkedin.com/jobs/view/4410261669,,"Registered Respiratory Therapist  SE, Atrium Health CMC, PT Dayshift, varied",Atrium Health,"Charlotte, NC",,False,https://www.linkedin.com/company/atrium-health-us
-67,li-4410510151,linkedin,https://www.linkedin.com/jobs/view/4410510151,,Software Engineer 4 - Contingent (contract),Wells Fargo,"Charlotte, NC",,False,https://www.linkedin.com/company/wellsfargo
-,id,site,job_url,job_url_direct,title,company,location,date_posted,is_remote,company_url
-0,in-bc9c86999db38c7e,indeed,https://www.indeed.com/viewjob?jk=bc9c86999db38c7e,http://www.indeed.com/job/senior-application-support-specialist-bc9c86999db38c7e,Senior Application Support Specialist,Dogra Technologies,"Remote, US",2026-05-05,True,https://www.indeed.com/cmp/Dogra-Technologies
-1,in-03ec66a4d6bf6548,indeed,https://www.indeed.com/viewjob?jk=03ec66a4d6bf6548,http://www.indeed.com/job/database-engineer-03ec66a4d6bf6548,Database Engineer,Aastral Global,"Remote, US",2026-05-05,True,https://www.indeed.com/cmp/Aastral-Global
-2,in-5ba5eaaa10beb3a8,indeed,https://www.indeed.com/viewjob?jk=5ba5eaaa10beb3a8,https://www.paycomonline.net/v4/ats/web.php/jobs/ViewJobDetails?job=286250&clientkey=2BAE53DB5E74E324EB03FD486E912AAF&source=Indeed,"Senior - Security Engineer, Information Security",Citrin Cooperman Advisors LLC,"Remote, US",2026-05-04,True,https://www.indeed.com/cmp/Citrin-Cooperman-Advisors-LLC
-3,in-b4d48aee21cdfb1a,indeed,https://www.indeed.com/viewjob?jk=b4d48aee21cdfb1a,https://ats.rippling.com/brightside/jobs/15d0f513-5e74-4d40-a5a7-e0b73b00fad7?jobSite=Indeed,"Engineering Manager, Data / AI",Brightside Benefit,"Remote, US",2026-05-04,True,https://www.indeed.com/cmp/Brightside-Benefit
-4,in-fcff99292f123a21,indeed,https://www.indeed.com/viewjob?jk=fcff99292f123a21,https://trilongroup.pinpointhq.com/postings/062a4cef-264f-4ce2-be88-f780c3383651?utm_medium=job_board&utm_source=indeed,Product Manager (Enterprise Tools),Trilon Group,"Remote, US",2026-05-05,True,https://www.indeed.com/cmp/Trilon-Group
-5,in-821173d20171a417,indeed,https://www.indeed.com/viewjob?jk=821173d20171a417,https://ghc.wd1.myworkdayjobs.com/en-US/Kaplan_Careers/job/RemoteNationwide-USA/Senior-Cloud-Engineer-I_JR255001,Senior Cloud Engineer I,Kaplan,"Remote, US",2026-05-04,True,https://www.indeed.com/cmp/Kaplan
-6,li-4408944382,linkedin,https://www.linkedin.com/jobs/view/4408944382,,"AI Engineering Lead at Aios Medical — Remote, $80k-$120k/year inc equity",Aios Medical (Fella Health),"San Francisco, CA",,True,https://www.linkedin.com/company/aios-medical
-7,li-4399628482,linkedin,https://www.linkedin.com/jobs/view/4399628482,,Software Engineer | Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-8,li-4400718642,linkedin,https://www.linkedin.com/jobs/view/4400718642,,Software Engineer - Python & Go | $80/hr Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-9,li-4399619609,linkedin,https://www.linkedin.com/jobs/view/4399619609,,Software Engineer | Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-10,li-4400707692,linkedin,https://www.linkedin.com/jobs/view/4400707692,,Software Engineer - Python & Go | $80/hr Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-11,li-4399612556,linkedin,https://www.linkedin.com/jobs/view/4399612556,,Software Engineer | Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-12,li-4410574307,linkedin,https://www.linkedin.com/jobs/view/4410574307,,MLOps Engineer (Remote),Quik Hire Staffing,,,True,https://in.linkedin.com/company/quik-hire-staffing
-13,li-4409355080,linkedin,https://www.linkedin.com/jobs/view/4409355080,,Autonomous Systems Engineer - Remote Work,BairesDev,,,True,https://www.linkedin.com/company/bairesdev
-14,li-4400717619,linkedin,https://www.linkedin.com/jobs/view/4400717619,,Software Engineer - Python & Go | $80/hr Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-15,li-4388683838,linkedin,https://www.linkedin.com/jobs/view/4388683838,,Docker developer | $35/hr Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-16,li-4399606436,linkedin,https://www.linkedin.com/jobs/view/4399606436,,Software Engineer| Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-17,li-4400703940,linkedin,https://www.linkedin.com/jobs/view/4400703940,,Software Engineer – Python & TypeScript | Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-18,li-4400709926,linkedin,https://www.linkedin.com/jobs/view/4400709926,,Full Stack Engineer - Python & Go | $80/hr Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-19,li-4410280271,linkedin,https://www.linkedin.com/jobs/view/4410280271,,Entry Level Software Engineer - Site Reliability (Remote - Mexico),Yelp,,,True,https://www.linkedin.com/company/yelp-com
-20,li-4399628403,linkedin,https://www.linkedin.com/jobs/view/4399628403,,Software Engineer | Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-21,li-4400710749,linkedin,https://www.linkedin.com/jobs/view/4400710749,,Software Engineer - Python & Go | $80/hr Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-22,li-4400719688,linkedin,https://www.linkedin.com/jobs/view/4400719688,,Software Engineer – Python & TypeScript | Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-23,li-4400702927,linkedin,https://www.linkedin.com/jobs/view/4400702927,,Software Engineer – Python & TypeScript | Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-24,li-4400711650,linkedin,https://www.linkedin.com/jobs/view/4400711650,,Software Engineer - Python & Go | $80/hr Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-25,li-4399623500,linkedin,https://www.linkedin.com/jobs/view/4399623500,,Software Engineer | Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-26,li-4410566833,linkedin,https://www.linkedin.com/jobs/view/4410566833,,Entry Level Software Developer – Remote,Quik Hire Staffing,,,True,https://in.linkedin.com/company/quik-hire-staffing
-27,li-4398338686,linkedin,https://www.linkedin.com/jobs/view/4398338686,,ServiceNow Developer (Work remotely),DXC Technology Vietnam,,,True,https://vn.linkedin.com/company/dxc-technology-vietnam
-28,li-4410564941,linkedin,https://www.linkedin.com/jobs/view/4410564941,,AI Application Engineer (Remote),Quik Hire Staffing,,,True,https://in.linkedin.com/company/quik-hire-staffing
-29,li-4410562822,linkedin,https://www.linkedin.com/jobs/view/4410562822,,AI Integration Engineer (Remote),Quik Hire Staffing,,,True,https://in.linkedin.com/company/quik-hire-staffing
-30,li-4410577116,linkedin,https://www.linkedin.com/jobs/view/4410577116,,MLOps Engineer (Remote),Quik Hire Staffing,,,True,https://in.linkedin.com/company/quik-hire-staffing
-31,li-4400716691,linkedin,https://www.linkedin.com/jobs/view/4400716691,,Software Engineer - Python & Go | $80/hr Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-32,li-4400719668,linkedin,https://www.linkedin.com/jobs/view/4400719668,,Software Engineer – Python & TypeScript | Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-33,li-4400711898,linkedin,https://www.linkedin.com/jobs/view/4400711898,,Full Stack Engineer - Python & Go | $80/hr Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-34,li-4400701924,linkedin,https://www.linkedin.com/jobs/view/4400701924,,Software Engineer – Python & TypeScript | Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-35,li-4400711849,linkedin,https://www.linkedin.com/jobs/view/4400711849,,Software Engineer – Python & TypeScript | Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-36,li-4388696570,linkedin,https://www.linkedin.com/jobs/view/4388696570,,Robotics Software Engineer | Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-37,li-4400720701,linkedin,https://www.linkedin.com/jobs/view/4400720701,,Software Engineer – Python & TypeScript | Remote,Crossing Hurdles,,,True,https://www.linkedin.com/company/crossinghurdles
-38,li-4398144572,linkedin,https://www.linkedin.com/jobs/view/4398144572,,"Software Engineer (Applied AI) - Portugal, remote",TalentCo,,,True,https://uk.linkedin.com/company/talentco-ai
-39,li-4410554960,linkedin,https://www.linkedin.com/jobs/view/4410554960,,Entry Level Software Developer – Remote,Quik Hire Staffing,,,True,https://in.linkedin.com/company/quik-hire-staffing
-40,li-4408176098,linkedin,https://www.linkedin.com/jobs/view/4408176098,,AI Workflow Automation Expert(Freelance | WFH),BeGig,,,True,https://in.linkedin.com/company/begig
-41,li-4409341291,linkedin,https://www.linkedin.com/jobs/view/4409341291,,Autonomous Systems Engineer - Remote Work,BairesDev,,,True,https://www.linkedin.com/company/bairesdev
-42,li-4408186747,linkedin,https://www.linkedin.com/jobs/view/4408186747,,Systems Integration Engineer | E-commerce | Shopify | Fully Remote | £280 Outside IR35,VirtueTech Recruitment Group,,,True,https://www.linkedin.com/company/virtuetech-recruitment-group
-43,li-4410508929,linkedin,https://www.linkedin.com/jobs/view/4410508929,,"Senior Product Engineer (Python) | Django, FastAPI, TDD, AWS, JavaScript | Building Human Intelligence > AI Infra | Research + Healthcare | Remote (UK) | £80-100k+ Bonus + Equity",Owen Thomas | B Corp™,,,True,https://uk.linkedin.com/company/owen-thomas-talent
-44,li-4401361799,linkedin,https://www.linkedin.com/jobs/view/4401361799,,"Staff Backend Engineer - Application Core Services, Stacks | USA | Remote",Grafana Labs,,,True,https://www.linkedin.com/company/grafana-labs
-45,li-4410568564,linkedin,https://www.linkedin.com/jobs/view/4410568564,,Systems Engineer - Unmanned Aircraft Remote Control Station,INTRACOM DEFENSE,"Koropi, Attiki, Greece",,True,https://gr.linkedin.com/company/intracom-defense
+id,site,job_url,job_url_direct,title,company,location,date_posted,is_remote,company_url
+li-4411273347,linkedin,https://www.linkedin.com/jobs/view/4411273347,,"Part-Time Student - Software Test Engineer - Morrisville, NC",John Deere,"Morrisville, NC",,False,https://www.linkedin.com/company/john-deere
+li-4408897697,linkedin,https://www.linkedin.com/jobs/view/4408897697,,Copilot/Power Platform Developer,Matlen Silver,"North Carolina, United States",,False,https://www.linkedin.com/company/matlen-silver
+li-4409993543,linkedin,https://www.linkedin.com/jobs/view/4409993543,,Project Engineer - Pharma,Intellectt Inc,"North Carolina, United States",,False,https://www.linkedin.com/company/intellecttinc
+li-4411234836,linkedin,https://www.linkedin.com/jobs/view/4411234836,,AI Deployment Accelerator,Freight Hero,,,False,https://www.linkedin.com/company/freight-hero-ai
+li-4409204118,linkedin,https://www.linkedin.com/jobs/view/4409204118,,AI & Machine Learning Engineering Consultant - Power & Utilities Sector - Manager - Consulting,EY,"Raleigh, NC",,False,https://uk.linkedin.com/company/ernstandyoung
+li-4409973851,linkedin,https://www.linkedin.com/jobs/view/4409973851,,Principal/Senior Principal Software Engineer,Red Hat,"Raleigh, NC",,False,https://www.linkedin.com/company/red-hat
+li-4411275341,linkedin,https://www.linkedin.com/jobs/view/4411275341,,Senior C++ Embedded Software Engineer - Autonomous Systems,"Diversified Services Network, Inc.","Clayton, NC",,False,https://www.linkedin.com/company/diversified-services-network
+li-4411247351,linkedin,https://www.linkedin.com/jobs/view/4411247351,,NAS-Staff Engineer,Zachry Group,"Cary, NC",,False,https://www.linkedin.com/company/zachry-group
+li-4409966914,linkedin,https://www.linkedin.com/jobs/view/4409966914,,"Java Software Engineer (LIMS / Laboratory Experience) at Durham, NC (Hybrid 2days onsite)",Jobs via Dice,"Durham, NC",,False,https://www.linkedin.com/company/jobs-via-dice
+li-4409987077,linkedin,https://www.linkedin.com/jobs/view/4409987077,,Senior Senior Software Engineer,Jobs via Dice,"Durham, NC",,False,https://www.linkedin.com/company/jobs-via-dice
+li-4408886802,linkedin,https://www.linkedin.com/jobs/view/4408886802,,TMS Configuration Engineer,World Courier,"North Carolina, United States",,False,https://uk.linkedin.com/company/world-courier
+li-4409208003,linkedin,https://www.linkedin.com/jobs/view/4409208003,,AI Engineering - Power & Utilities Sector - Senior Manager - Consulting,EY,"Raleigh, NC",,False,https://uk.linkedin.com/company/ernstandyoung
+li-4407538088,linkedin,https://www.linkedin.com/jobs/view/4407538088,,Project Engineering Manager,Black & Veatch,"Cary, NC",,False,https://www.linkedin.com/company/black-and-veatch
+li-4334310954,linkedin,https://www.linkedin.com/jobs/view/4334310954,,Project Engineering Manager - Substation,Black & Veatch,"Cary, NC",,False,https://www.linkedin.com/company/black-and-veatch
+li-4409415642,linkedin,https://www.linkedin.com/jobs/view/4409415642,,Overhead Transmission Line Project Engineering Manager,Black & Veatch,"Cary, NC",,False,https://www.linkedin.com/company/black-and-veatch
+li-4411229992,linkedin,https://www.linkedin.com/jobs/view/4411229992,,Adobe Experience Platform Engineer,Verizon,"Cary, NC",,False,https://www.linkedin.com/company/verizon
+li-4411237333,linkedin,https://www.linkedin.com/jobs/view/4411237333,,Cybersecurity Senior Engineer (ASM),Truist,"Raleigh, NC",,False,https://www.linkedin.com/company/truistfinancialcorporation
+li-4409987062,linkedin,https://www.linkedin.com/jobs/view/4409987062,,Structural Engineer,Jobs via Dice,"Raleigh, NC",,False,https://www.linkedin.com/company/jobs-via-dice
+li-4408883840,linkedin,https://www.linkedin.com/jobs/view/4408883840,,Network Engineer,Attindas Hygiene Partners,"Raleigh, NC",,False,https://www.linkedin.com/company/attindas
+li-4411273347,linkedin,https://www.linkedin.com/jobs/view/4411273347,,"Part-Time Student - Software Test Engineer - Morrisville, NC",John Deere,"Morrisville, NC",,False,https://www.linkedin.com/company/john-deere
+li-4408897697,linkedin,https://www.linkedin.com/jobs/view/4408897697,,Copilot/Power Platform Developer,Matlen Silver,"North Carolina, United States",,False,https://www.linkedin.com/company/matlen-silver
+li-4409993543,linkedin,https://www.linkedin.com/jobs/view/4409993543,,Project Engineer - Pharma,Intellectt Inc,"North Carolina, United States",,False,https://www.linkedin.com/company/intellecttinc
+li-4411234836,linkedin,https://www.linkedin.com/jobs/view/4411234836,,AI Deployment Accelerator,Freight Hero,,,False,https://www.linkedin.com/company/freight-hero-ai
+li-4409204118,linkedin,https://www.linkedin.com/jobs/view/4409204118,,AI & Machine Learning Engineering Consultant - Power & Utilities Sector - Manager - Consulting,EY,"Raleigh, NC",,False,https://uk.linkedin.com/company/ernstandyoung
+li-4411275341,linkedin,https://www.linkedin.com/jobs/view/4411275341,,Senior C++ Embedded Software Engineer - Autonomous Systems,"Diversified Services Network, Inc.","Clayton, NC",,False,https://www.linkedin.com/company/diversified-services-network
+li-4409973851,linkedin,https://www.linkedin.com/jobs/view/4409973851,,Principal/Senior Principal Software Engineer,Red Hat,"Raleigh, NC",,False,https://www.linkedin.com/company/red-hat
+li-4409966914,linkedin,https://www.linkedin.com/jobs/view/4409966914,,"Java Software Engineer (LIMS / Laboratory Experience) at Durham, NC (Hybrid 2days onsite)",Jobs via Dice,"Durham, NC",,False,https://www.linkedin.com/company/jobs-via-dice
+li-4411247351,linkedin,https://www.linkedin.com/jobs/view/4411247351,,NAS-Staff Engineer,Zachry Group,"Cary, NC",,False,https://www.linkedin.com/company/zachry-group
+li-4409987077,linkedin,https://www.linkedin.com/jobs/view/4409987077,,Senior Senior Software Engineer,Jobs via Dice,"Durham, NC",,False,https://www.linkedin.com/company/jobs-via-dice
+li-4408886802,linkedin,https://www.linkedin.com/jobs/view/4408886802,,TMS Configuration Engineer,World Courier,"North Carolina, United States",,False,https://uk.linkedin.com/company/world-courier
+li-4409208003,linkedin,https://www.linkedin.com/jobs/view/4409208003,,AI Engineering - Power & Utilities Sector - Senior Manager - Consulting,EY,"Raleigh, NC",,False,https://uk.linkedin.com/company/ernstandyoung
+li-4407538088,linkedin,https://www.linkedin.com/jobs/view/4407538088,,Project Engineering Manager,Black & Veatch,"Cary, NC",,False,https://www.linkedin.com/company/black-and-veatch
+li-4334310954,linkedin,https://www.linkedin.com/jobs/view/4334310954,,Project Engineering Manager - Substation,Black & Veatch,"Cary, NC",,False,https://www.linkedin.com/company/black-and-veatch
+li-4409415642,linkedin,https://www.linkedin.com/jobs/view/4409415642,,Overhead Transmission Line Project Engineering Manager,Black & Veatch,"Cary, NC",,False,https://www.linkedin.com/company/black-and-veatch
+li-4411229992,linkedin,https://www.linkedin.com/jobs/view/4411229992,,Adobe Experience Platform Engineer,Verizon,"Cary, NC",,False,https://www.linkedin.com/company/verizon
+li-4411237333,linkedin,https://www.linkedin.com/jobs/view/4411237333,,Cybersecurity Senior Engineer (ASM),Truist,"Raleigh, NC",,False,https://www.linkedin.com/company/truistfinancialcorporation
+li-4409987062,linkedin,https://www.linkedin.com/jobs/view/4409987062,,Structural Engineer,Jobs via Dice,"Raleigh, NC",,False,https://www.linkedin.com/company/jobs-via-dice
+li-4408883840,linkedin,https://www.linkedin.com/jobs/view/4408883840,,Network Engineer,Attindas Hygiene Partners,"Raleigh, NC",,False,https://www.linkedin.com/company/attindas
+li-4411273347,linkedin,https://www.linkedin.com/jobs/view/4411273347,,"Part-Time Student - Software Test Engineer - Morrisville, NC",John Deere,"Morrisville, NC",,False,https://www.linkedin.com/company/john-deere
+li-4408897697,linkedin,https://www.linkedin.com/jobs/view/4408897697,,Copilot/Power Platform Developer,Matlen Silver,"North Carolina, United States",,False,https://www.linkedin.com/company/matlen-silver
+li-4409993543,linkedin,https://www.linkedin.com/jobs/view/4409993543,,Project Engineer - Pharma,Intellectt Inc,"North Carolina, United States",,False,https://www.linkedin.com/company/intellecttinc
+li-4411234836,linkedin,https://www.linkedin.com/jobs/view/4411234836,,AI Deployment Accelerator,Freight Hero,,,False,https://www.linkedin.com/company/freight-hero-ai
+li-4409204118,linkedin,https://www.linkedin.com/jobs/view/4409204118,,AI & Machine Learning Engineering Consultant - Power & Utilities Sector - Manager - Consulting,EY,"Raleigh, NC",,False,https://uk.linkedin.com/company/ernstandyoung
+li-4411275341,linkedin,https://www.linkedin.com/jobs/view/4411275341,,Senior C++ Embedded Software Engineer - Autonomous Systems,"Diversified Services Network, Inc.","Clayton, NC",,False,https://www.linkedin.com/company/diversified-services-network
+li-4409973851,linkedin,https://www.linkedin.com/jobs/view/4409973851,,Principal/Senior Principal Software Engineer,Red Hat,"Raleigh, NC",,False,https://www.linkedin.com/company/red-hat
+li-4411247351,linkedin,https://www.linkedin.com/jobs/view/4411247351,,NAS-Staff Engineer,Zachry Group,"Cary, NC",,False,https://www.linkedin.com/company/zachry-group
+li-4409966914,linkedin,https://www.linkedin.com/jobs/view/4409966914,,"Java Software Engineer (LIMS / Laboratory Experience) at Durham, NC (Hybrid 2days onsite)",Jobs via Dice,"Durham, NC",,False,https://www.linkedin.com/company/jobs-via-dice
+li-4409987077,linkedin,https://www.linkedin.com/jobs/view/4409987077,,Senior Senior Software Engineer,Jobs via Dice,"Durham, NC",,False,https://www.linkedin.com/company/jobs-via-dice
+li-4408886802,linkedin,https://www.linkedin.com/jobs/view/4408886802,,TMS Configuration Engineer,World Courier,"North Carolina, United States",,False,https://uk.linkedin.com/company/world-courier
+li-4409208003,linkedin,https://www.linkedin.com/jobs/view/4409208003,,AI Engineering - Power & Utilities Sector - Senior Manager - Consulting,EY,"Raleigh, NC",,False,https://uk.linkedin.com/company/ernstandyoung
+li-4407538088,linkedin,https://www.linkedin.com/jobs/view/4407538088,,Project Engineering Manager,Black & Veatch,"Cary, NC",,False,https://www.linkedin.com/company/black-and-veatch
+li-4334310954,linkedin,https://www.linkedin.com/jobs/view/4334310954,,Project Engineering Manager - Substation,Black & Veatch,"Cary, NC",,False,https://www.linkedin.com/company/black-and-veatch
+li-4409415642,linkedin,https://www.linkedin.com/jobs/view/4409415642,,Overhead Transmission Line Project Engineering Manager,Black & Veatch,"Cary, NC",,False,https://www.linkedin.com/company/black-and-veatch
+li-4411229992,linkedin,https://www.linkedin.com/jobs/view/4411229992,,Adobe Experience Platform Engineer,Verizon,"Cary, NC",,False,https://www.linkedin.com/company/verizon
+li-4411237333,linkedin,https://www.linkedin.com/jobs/view/4411237333,,Cybersecurity Senior Engineer (ASM),Truist,"Raleigh, NC",,False,https://www.linkedin.com/company/truistfinancialcorporation
+li-4409987062,linkedin,https://www.linkedin.com/jobs/view/4409987062,,Structural Engineer,Jobs via Dice,"Raleigh, NC",,False,https://www.linkedin.com/company/jobs-via-dice
+li-4408883840,linkedin,https://www.linkedin.com/jobs/view/4408883840,,Network Engineer,Attindas Hygiene Partners,"Raleigh, NC",,False,https://www.linkedin.com/company/attindas
