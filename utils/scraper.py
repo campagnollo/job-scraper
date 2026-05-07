@@ -49,7 +49,7 @@ _COLUMNS_TO_DROP = [
     "company_url_direct",
 ]
 
-_TITLES_TO_DROP = ["PLC","Manufacturing", "Mechanical", "Electrical", "Civil"]
+_TITLES_TO_DROP = ["PLC","Manufacturing", "Mechanical", "Electrical", "Civil", "Project"]
 _COMPANIES_TO_DROP = ["Epic", "Piper Companies", "Turing"]
 
 _SUPPORTED_SITES = ["indeed", "linkedin"]

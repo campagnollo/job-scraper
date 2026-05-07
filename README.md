@@ -94,7 +94,7 @@ A flat CSV of all scraped results, with one header row and results appended per 
 
 Listings are filtered at scrape time in `scraper.py`:
 
-- **Titles excluded:** PLC, Manufacturing, Mechanical, Electrical, Civil
+- **Titles excluded:** PLC, Manufacturing, Mechanical, Electrical, Civil, Project
 - **Companies excluded:** Epic, Piper Companies, Turing
 - **Remote location:** When searching "Remote", only rows where `is_remote=True` are kept
 
