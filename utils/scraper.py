@@ -50,7 +50,7 @@ _COLUMNS_TO_DROP = [
 ]
 
 _TITLES_TO_DROP = ["PLC","Manufacturing", "Mechanical", "Electrical", "Civil", "Project"]
-_COMPANIES_TO_DROP = ["Epic", "Piper Companies", "Turing"]
+_COMPANIES_TO_DROP = ["Epic", "Piper Companies", "Turing", "RemoteHunter", "idexcel"]
 
 _SUPPORTED_SITES = ["indeed", "linkedin"]
 
