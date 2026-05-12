@@ -50,16 +50,16 @@ def main():
         "Infrastructure automation engineer",
         "Cloud automation engineer",
         "Network automation engineer",
-        "Platform support engineer Python",
         "SRE Python AWS",
         "DevOps engineer contract Python Terraform",
-        "Tools engineer Python",
         "Systems engineer Python AWS",
-        "Python migration engineer",
         "Ansible automation engineer",
-    ]
+        "Network automation architect",
+        "Cloud network engineer",
+        "Kubernetes platform engineer",
+        "Automation engineer Cisco ACI"]
     sites = ["indeed", "linkedin"]
-    locations = ["Raleigh, NC", "Durham, NC", "Chapel Hill, NC", "Remote"]
+    locations = ["Raleigh, NC", "Remote"]
     results = 1000
     hours_old = 4
     country = "USA"
