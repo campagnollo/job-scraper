@@ -23,7 +23,7 @@ Usage:
         searches=["Python automation engineer"],
         sites=["indeed", "linkedin"],
         results=100,
-        hours_old=12,
+        hours_old=4,
         country="USA",
         location="Raleigh, NC",
     )
@@ -48,9 +48,16 @@ _COLUMNS_TO_DROP = [
     "vacancy_count", "work_from_home_type", "company_addresses",
     "company_url_direct",
 ]
-
+_LOCATIONS_TO_DROP_PATTERNS = [
+    r"\bMexico\b", r"\bBrasil\b", r"\bBrazil\b", r"\bColombia\b",
+    r"\bArgentina\b", r"\bChile\b", r"\bPeru\b", r"\bVenezuela\b",
+    r"\bEcuador\b", r"\bBolivia\b", r"\bParaguay\b", r"\bUruguay\b",
+    r"\bPanama\b", r"\bGuatemala\b", r"\bHonduras\b", r"\bNicaragua\b",
+    r"\bCosta Rica\b", r"\bEl Salvador\b", r"\bCuba\b", r"\bDominican\b",
+]
 _TITLES_TO_DROP = ["PLC","Manufacturing", "Mechanical", "Electrical", "Civil", "Project"]
-_COMPANIES_TO_DROP = ["Epic", "Piper Companies", "Turing", "RemoteHunter", "idexcel"]
+_COMPANIES_TO_DROP = ["Epic", "Piper Companies", "Turing", "RemoteHunter", "idexcel",
+                      "CBRE", "Crossover", "Hired", "Hire Feed"]
 
 _SUPPORTED_SITES = ["indeed", "linkedin"]
 
@@ -111,7 +118,7 @@ class ScraperJobs:
 
             for site in config.sites:
                 try:
-                    jobs = scrape_jobs(
+                    site_jobs = scrape_jobs(
                         site_name=[site],
                         search_term=search,
                         results_wanted=config.results,
@@ -129,6 +136,8 @@ class ScraperJobs:
                     print(f"Indeed scraping error in search '{search}': {ie}")
                     continue
 
+                jobs = pd.concat([jobs, site_jobs], ignore_index=True)
+
             print(f"Scraped {len(jobs)} jobs for search query: '{search}'")
             df_search = pd.DataFrame(jobs)
 
@@ -144,6 +153,10 @@ class ScraperJobs:
             df = df[~mask]
         if "company" in df.columns:
             mask = df["company"].str.contains("|".join(_COMPANIES_TO_DROP), case=False, na=False)
+            df = df[~mask]
+        if "location" in df.columns:
+            pattern = "|".join(_LOCATIONS_TO_DROP_PATTERNS)
+            mask = df["location"].str.contains(pattern, case=False, na=False, regex=True)
             df = df[~mask]
         df = df.drop(columns=_COLUMNS_TO_DROP, errors="ignore")
         return df
