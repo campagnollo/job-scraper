@@ -57,7 +57,7 @@ _LOCATIONS_TO_DROP_PATTERNS = [
 ]
 _TITLES_TO_DROP = ["PLC","Manufacturing", "Mechanical", "Electrical", "Civil", "Project"]
 _COMPANIES_TO_DROP = ["Epic", "Piper Companies", "Turing", "RemoteHunter", "idexcel",
-                      "CBRE", "Crossover", "Hired", "Hire Feed"]
+                      "CBRE", "Crossover", "Hired", "Hire Feed", "Quik Hire Staffing"]
 
 _SUPPORTED_SITES = ["indeed", "linkedin"]
 
