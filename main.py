@@ -56,8 +56,7 @@ def main():
         "Ansible automation engineer",
         "Network automation architect",
         "Cloud network engineer",
-        "Kubernetes platform engineer",
-        "Automation engineer Cisco ACI"]
+        "Kubernetes platform engineer"]
     sites = ["indeed", "linkedin"]
     locations = ["Raleigh, NC", "Remote"]
     results = 1000

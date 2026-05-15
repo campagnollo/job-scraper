@@ -46,7 +46,7 @@ _COLUMNS_TO_DROP = [
     "company_num_employees", "company_revenue", "company_description",
     "skills", "experience_range", "company_rating", "company_reviews_count",
     "vacancy_count", "work_from_home_type", "company_addresses",
-    "company_url_direct",
+    "company_url_direct", "job_url_direct"
 ]
 _LOCATIONS_TO_DROP_PATTERNS = [
     r"\bMexico\b", r"\bBrasil\b", r"\bBrazil\b", r"\bColombia\b",
@@ -57,9 +57,10 @@ _LOCATIONS_TO_DROP_PATTERNS = [
 ]
 _TITLES_TO_DROP = ["PLC","Manufacturing", "Mechanical", "Electrical", "Civil", "Project"]
 _COMPANIES_TO_DROP = ["Epic", "Piper Companies", "Turing", "RemoteHunter", "idexcel",
-                      "CBRE", "Crossover", "Hired", "Hire Feed", "Quik Hire Staffing"]
+                      "CBRE", "Crossover", "Hired", "Hire Feed", "Quik Hire Staffing", "Sundayy"]
 
-_SUPPORTED_SITES = ["indeed", "linkedin"]
+_SUPPORTED_SITES = ["indeed", "linkedin", "glassdoor", "ziprecruiter", "careerjet",
+                    "simplyhired", "dice"]
 
 
 @dataclass
@@ -136,7 +137,11 @@ class ScraperJobs:
                     print(f"Indeed scraping error in search '{search}': {ie}")
                     continue
 
-                jobs = pd.concat([jobs, site_jobs], ignore_index=True)
+                #   todo: prevent empty entries from being concatenated, which can cause issues with downstream processing
+                jobs = pd.concat(
+                    [df.dropna(axis=1, how='all') for df in [jobs, site_jobs]],
+                    ignore_index=True
+                )
 
             print(f"Scraped {len(jobs)} jobs for search query: '{search}'")
             df_search = pd.DataFrame(jobs)
