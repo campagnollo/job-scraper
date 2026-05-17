@@ -60,7 +60,7 @@ def main():
     sites = ["indeed", "linkedin"]
     locations = ["Raleigh, NC", "Remote"]
     results = 1000
-    hours_old = 4
+    hours_old = 12
     country = "USA"
 
     if os.path.exists("jobs.db"):
@@ -75,7 +75,7 @@ def main():
             searches=searches,
             sites=sites,
             results=results,
-            hours_old=hours_old,
+            hours_old=hours_old if hours_old else 4,
             country=country,
             location=local,
         )

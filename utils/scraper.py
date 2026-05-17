@@ -23,7 +23,7 @@ Usage:
         searches=["Python automation engineer"],
         sites=["indeed", "linkedin"],
         results=100,
-        hours_old=4,
+        hours_old=None,  #defaults to 4 hours if None
         country="USA",
         location="Raleigh, NC",
     )
@@ -32,11 +32,16 @@ Usage:
 """
 
 from dataclasses import dataclass
+import re
 from typing import List
-
+import sys
+import os
+sys.path.insert(0, os.path.dirname(__file__))
 import pandas as pd
 from jobspy import scrape_jobs
 from jobspy.exception import LinkedInException, IndeedException
+from .ignored_companies import companies_to_drop
+
 
 # Columns removed from raw jobspy output — not needed for downstream processing.
 _COLUMNS_TO_DROP = [
@@ -56,8 +61,7 @@ _LOCATIONS_TO_DROP_PATTERNS = [
     r"\bCosta Rica\b", r"\bEl Salvador\b", r"\bCuba\b", r"\bDominican\b",
 ]
 _TITLES_TO_DROP = ["PLC","Manufacturing", "Mechanical", "Electrical", "Civil", "Project"]
-_COMPANIES_TO_DROP = ["Epic", "Piper Companies", "Turing", "RemoteHunter", "idexcel",
-                      "CBRE", "Crossover", "Hired", "Hire Feed", "Quik Hire Staffing", "Sundayy"]
+_COMPANIES_TO_DROP = companies_to_drop()
 
 _SUPPORTED_SITES = ["indeed", "linkedin", "glassdoor", "ziprecruiter", "careerjet",
                     "simplyhired", "dice"]
@@ -137,7 +141,6 @@ class ScraperJobs:
                     print(f"Indeed scraping error in search '{search}': {ie}")
                     continue
 
-                #   todo: prevent empty entries from being concatenated, which can cause issues with downstream processing
                 jobs = pd.concat(
                     [df.dropna(axis=1, how='all') for df in [jobs, site_jobs]],
                     ignore_index=True
@@ -157,7 +160,8 @@ class ScraperJobs:
             mask = df["title"].str.contains("|".join(_TITLES_TO_DROP), case=False, na=False)
             df = df[~mask]
         if "company" in df.columns:
-            mask = df["company"].str.contains("|".join(_COMPANIES_TO_DROP), case=False, na=False)
+            pattern = "|".join(re.escape(company) for company in _COMPANIES_TO_DROP)
+            mask = df["company"].str.contains(pattern, case=False, na=False)
             df = df[~mask]
         if "location" in df.columns:
             pattern = "|".join(_LOCATIONS_TO_DROP_PATTERNS)
