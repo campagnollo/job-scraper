@@ -20,4 +20,5 @@ def companies_to_drop():
         """
     return {"Epic", "Piper Companies", "Turing", "RemoteHunter", "idexcel",
             "BV Teck","World Wide Technology", "CBRE", "Crossover", "Hired",
-            "Hire Feed", "Quik Hire Staffing", "Sundayy", "DataAnnotation", "MixRank"}
+            "Hire Feed", "Quik Hire Staffing", "Sundayy", "DataAnnotation", "MixRank",
+            "Crossing Hurdles", "Revature", "Smart Working", "BairesDev"}

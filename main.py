@@ -60,7 +60,7 @@ def main():
     sites = ["indeed", "linkedin"]
     locations = ["Raleigh, NC", "Remote"]
     results = 1000
-    hours_old = 12
+    hours_old = None
     country = "USA"
 
     if os.path.exists("jobs.db"):
@@ -85,9 +85,9 @@ def main():
             print(f"No jobs found for '{local}'. Skipping database and CSV write.")
             continue
 
-        conn = sqlite3.connect("jobs.db")
-        df.to_sql("jobs", conn, if_exists="append", index=False)
-        conn.close()
+        # conn = sqlite3.connect("jobs.db")
+        # df.to_sql("jobs", conn, if_exists="append", index=False)
+        # conn.close()
 
         write_header = not os.path.exists("jobs_raw_table.csv")
         df.to_csv("jobs_raw_table.csv", mode="a", header=write_header, index=False)
