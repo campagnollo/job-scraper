@@ -23,6 +23,7 @@ Notes:
 import os
 import sqlite3
 from utils.scraper import ScraperJobs, ScrapeConfig
+import datetime
 
 
 def main():
@@ -60,7 +61,7 @@ def main():
     sites = ["indeed", "linkedin"]
     locations = ["Raleigh, NC", "Remote"]
     results = 1000
-    hours_old = None
+    hours_old = 4
     country = "USA"
 
     if os.path.exists("jobs.db"):
@@ -91,6 +92,8 @@ def main():
 
         write_header = not os.path.exists("jobs_raw_table.csv")
         df.to_csv("jobs_raw_table.csv", mode="a", header=write_header, index=False)
+
+    print(f"************\nJob scraping completed at {datetime.datetime.now()}.")
 
 
 if __name__ == "__main__":

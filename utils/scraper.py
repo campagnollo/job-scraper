@@ -30,14 +30,13 @@ Usage:
     scraper = ScraperJobs()
     df = scraper.scrape_jobs(config)
 """
-
 from dataclasses import dataclass
 import re
 from typing import List
 import sys
 import os
-sys.path.insert(0, os.path.dirname(__file__))
 import pandas as pd
+sys.path.insert(0, os.path.dirname(__file__))
 from jobspy import scrape_jobs
 from jobspy.exception import LinkedInException, IndeedException
 from .ignored_companies import companies_to_drop
@@ -60,7 +59,8 @@ _LOCATIONS_TO_DROP_PATTERNS = [
     r"\bPanama\b", r"\bGuatemala\b", r"\bHonduras\b", r"\bNicaragua\b",
     r"\bCosta Rica\b", r"\bEl Salvador\b", r"\bCuba\b", r"\bDominican\b",
 ]
-_TITLES_TO_DROP = ["PLC","Manufacturing", "Mechanical", "Electrical", "Civil", "Project"]
+_TITLES_TO_DROP = ["PLC","Instrumentation","Drawing", "Manufacturing", "Mechanical",
+                   "Electrical", "Civil", "Project"]
 _COMPANIES_TO_DROP = companies_to_drop()
 
 _SUPPORTED_SITES = ["indeed", "linkedin", "glassdoor", "ziprecruiter", "careerjet",
