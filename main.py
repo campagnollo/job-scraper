@@ -21,9 +21,10 @@ Notes:
 """
 
 import os
-import sqlite3
-from utils.scraper import ScraperJobs, ScrapeConfig
+#import sqlite3
 import datetime
+from utils.scraper import ScraperJobs, ScrapeConfig
+
 
 
 def main():
@@ -61,7 +62,7 @@ def main():
     sites = ["indeed", "linkedin"]
     locations = ["Raleigh, NC", "Remote"]
     results = 1000
-    hours_old = 4
+    hours_old = 12
     country = "USA"
 
     if os.path.exists("jobs.db"):
