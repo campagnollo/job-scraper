@@ -7,7 +7,7 @@ Add company names here to filter them out of scraped job listings.
 This module is imported by scraper.py and applied as a DataFrame filter
 during post-processing.
 """
-def companies_to_drop() -> set[str]:
+def companies_to_drop():
     """
         Return a set of company names to exclude from job scraping results.
 

@@ -61,6 +61,7 @@ _LOCATIONS_TO_DROP_PATTERNS = [
 ]
 _TITLES_TO_DROP = ["PLC","Instrumentation","Drawing", "Manufacturing", "Mechanical",
                    "Electrical", "Civil", "Project"]
+
 _COMPANIES_TO_DROP = companies_to_drop()
 
 _SUPPORTED_SITES = ["indeed", "linkedin", "glassdoor", "ziprecruiter", "careerjet",
