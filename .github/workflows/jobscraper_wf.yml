@@ -1,41 +1,52 @@
 name: CI
 
 on:
-push:
-branches:
-- main
-- master
-pull_request:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
 
 jobs:
-test:
-runs-on: ubuntu-latest
+  test:
+    runs-on: ubuntu-latest
 
-```
-steps:
-  - name: Checkout code
-    uses: actions/checkout@v4
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
 
-  - name: Set up Python
-    uses: actions/setup-python@v5
-    with:
-      python-version: "3.12"
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-  - name: Install dependencies
-    run: |
-      python -m pip install --upgrade pip
-      pip install -r requirements.txt
-      pip install pytest black flake8 bandit
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
 
-  - name: Check formatting
-    run: black --check .
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
 
-  - name: Lint
-    run: flake8 .
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest pytest-cov ruff bandit pip-audit
 
-  - name: Security scan
-    run: bandit -r .
+      - name: Check formatting
+        run: ruff format --check .
 
-  - name: Run tests
-    run: pytest
-```
+      - name: Lint
+        run: ruff check .
+
+      - name: Security scan
+        run: bandit -r . -ll
+
+      - name: Dependency audit
+        run: pip-audit
+
+      - name: Run tests
+        run: pytest --cov=. --cov-report=term
