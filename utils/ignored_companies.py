@@ -22,4 +22,7 @@ def companies_to_drop():
             "BV Teck","World Wide Technology", "CBRE","Motion Recruitment", "Crossover", "Hired",
             "Hire Feed", "Quik Hire Staffing", "Sundayy", "DataAnnotation", "MixRank",
             "Crossing Hurdles", "Zachary Piper Solutions","Revature", "Actalent", "Smart Working",
-            "BairesDev","RapidScale"}
+            "BairesDev","RapidScale","ANS","Domino's", "Trace Systems Inc.", "Lennor Group",
+            "FullStack", "Quadrivia AI", "Haystack"}
+
+

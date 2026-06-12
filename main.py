@@ -58,12 +58,18 @@ def main():
         "Ansible automation engineer",
         "Network automation architect",
         "Cloud network engineer",
-        "Kubernetes platform engineer"]
+        "Kubernetes platform engineer",
+        "Nornir",
+        "Unifi"]
+
+
+
     sites = ["indeed", "linkedin"]
     locations = ["Raleigh, NC", "Remote"]
     results = 1000
-    hours_old = 4
+    hours_old = None
     country = "USA"
+
 
     if os.path.exists("jobs.db"):
         os.remove("jobs.db")
