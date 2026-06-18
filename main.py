@@ -52,22 +52,26 @@ def main():
         "Infrastructure automation engineer",
         "Cloud automation engineer",
         "Network automation engineer",
+        "network engineer",
+        "Network automation architect",
         "SRE Python AWS",
         "DevOps engineer contract Python Terraform",
         "Systems engineer Python AWS",
         "Ansible automation engineer",
-        "Network automation architect",
         "Cloud network engineer",
         "Kubernetes platform engineer",
         "Nornir",
-        "Unifi"]
+        "Unifi"
+        ]
 
+    #searches = [
+    #    "network engineer"]
 
 
     sites = ["indeed", "linkedin"]
     locations = ["Raleigh, NC", "Remote"]
     results = 1000
-    hours_old = None
+    hours_old = 4
     country = "USA"
 
 

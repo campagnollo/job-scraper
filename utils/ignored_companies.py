@@ -23,6 +23,7 @@ def companies_to_drop():
             "Hire Feed", "Quik Hire Staffing", "Sundayy", "DataAnnotation", "MixRank",
             "Crossing Hurdles", "Zachary Piper Solutions","Revature", "Actalent", "Smart Working",
             "BairesDev","RapidScale","ANS","Domino's", "Trace Systems Inc.", "Lennor Group",
-            "FullStack", "Quadrivia AI", "Haystack"}
+            "FullStack", "Quadrivia AI", "Haystack", "Jobs via Dice", "Bandwidth Inc.",
+            "Tech Consulting"}
 
 

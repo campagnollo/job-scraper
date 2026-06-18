@@ -60,7 +60,7 @@ _LOCATIONS_TO_DROP_PATTERNS = [
     r"\bCosta Rica\b", r"\bEl Salvador\b", r"\bCuba\b", r"\bDominican\b",
 ]
 _TITLES_TO_DROP = ["PLC","Instrumentation","Drawing", "Manufacturing", "Mechanical",
-                   "Electrical", "Civil", "Project"]
+                   "Electrical", "Civil", "Project", "Payroll"]
 
 _COMPANIES_TO_DROP = companies_to_drop()
 
