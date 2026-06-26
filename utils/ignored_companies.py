@@ -18,12 +18,12 @@ def companies_to_drop():
         Returns:
             set[str]: Company names to exclude from scraped job listings.
         """
-    return {"Epic", "Piper Companies", "Turing", "RemoteHunter", "idexcel",
-            "BV Teck","World Wide Technology", "CBRE","Motion Recruitment", "Crossover", "Hired",
-            "Hire Feed", "Quik Hire Staffing", "Sundayy", "DataAnnotation", "MixRank",
-            "Crossing Hurdles", "Zachary Piper Solutions","Revature", "Actalent", "Smart Working",
-            "BairesDev","RapidScale","ANS","Domino's", "Trace Systems Inc.", "Lennor Group",
-            "FullStack", "Quadrivia AI", "Haystack", "Jobs via Dice", "Bandwidth Inc.",
-            "Tech Consulting"}
+    return {"epic", "piper companies", "turing", "remotehunter", "idexcel",
+            "bv teck", "world wide technology", "cbre", "motion recruitment", "crossover", "hired",
+            "hire feed", "quik hire staffing", "sundayy", "dataannotation", "mixrank",
+            "crossing hurdles", "zachary piper solutions", "revature", "actalent", "smart working",
+            "bairesdev", "rapidscale", "ans", "domino's", "trace systems inc.", "lennor group",
+            "fullstack", "quadrivia ai", "haystack", "qualys","jobs via dice", "bandwidth inc.",
+            "tech consulting", "deloitte", "ninjaone", "siemens energy","kc ml2","randstad digital americas"}
 
 

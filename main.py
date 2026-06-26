@@ -55,6 +55,7 @@ def main():
         "network engineer",
         "Network automation architect",
         "SRE Python AWS",
+        "netdevops",
         "DevOps engineer contract Python Terraform",
         "Systems engineer Python AWS",
         "Ansible automation engineer",

@@ -161,9 +161,18 @@ class ScraperJobs:
             mask = df["title"].str.contains("|".join(_TITLES_TO_DROP), case=False, na=False)
             df = df[~mask]
         if "company" in df.columns:
-            pattern = "|".join(re.escape(company) for company in _COMPANIES_TO_DROP)
-            mask = df["company"].str.contains(pattern, case=False, na=False)
-            df = df[~mask]
+            df["company_normalized"] = (
+                df["company"]
+                .fillna("")
+                .str.lower()
+                .str.strip()
+            )
+
+            df = df[
+                ~df["company_normalized"].isin(_COMPANIES_TO_DROP)
+            ]
+
+            df = df.drop(columns=["company_normalized"])
         if "location" in df.columns:
             pattern = "|".join(_LOCATIONS_TO_DROP_PATTERNS)
             mask = df["location"].str.contains(pattern, case=False, na=False, regex=True)
