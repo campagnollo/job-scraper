@@ -24,6 +24,7 @@ def companies_to_drop():
             "crossing hurdles", "zachary piper solutions", "revature", "actalent", "smart working",
             "bairesdev", "rapidscale", "ans", "domino's", "trace systems inc.", "lennor group",
             "fullstack", "quadrivia ai", "haystack", "qualys","jobs via dice", "bandwidth inc.",
-            "tech consulting", "deloitte", "ninjaone", "siemens energy","kc ml2","randstad digital americas"}
+            "tech consulting", "deloitte", "ninjaone", "siemens energy","kc ml2","randstad digital americas",
+            "gsk"}
 
 
