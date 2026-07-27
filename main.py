@@ -70,9 +70,9 @@ def main():
 
 
     sites = ["indeed", "linkedin"]
-    locations = ["Raleigh, NC", "Remote"]
+    locations = ["Raleigh, NC"]#, "Remote"]
     results = 1000
-    hours_old = 2
+    hours_old = 4
     country = "USA"
 
 
