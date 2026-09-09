@@ -47,32 +47,34 @@ def main():
         jobs.db             — SQLite database with a 'jobs' table
         jobs_raw_table.csv  — Raw results appended per location
     """
+
     searches = [
+        "Python",
+        "NOC",
+        "Netdevops",
+        "network engineer",
         "Python automation engineer",
         "Infrastructure automation engineer",
         "Cloud automation engineer",
         "Network automation engineer",
-        "network engineer",
         "Network automation architect",
         "SRE Python AWS",
-        "netdevops",
         "DevOps engineer contract Python Terraform",
         "Systems engineer Python AWS",
         "Ansible automation engineer",
         "Cloud network engineer",
         "Kubernetes platform engineer",
-        "Nornir",
-        "Unifi"
+        "IT/Desktop Support",
+        "Technical Support Engineer",
         ]
 
-    #searches = [
-    #    "network engineer"]
+
 
 
     sites = ["indeed", "linkedin"]
-    locations = ["Raleigh, NC"]#, "Remote"]
+    locations = ["Raleigh, NC", "Remote"]
     results = 1000
-    hours_old = 4
+    hours_old =8 if hours_determination() < 10 else 2 if 10 <= hours_determination() < 16 else 4
     country = "USA"
 
 
@@ -88,7 +90,7 @@ def main():
             searches=searches,
             sites=sites,
             results=results,
-            hours_old=hours_old if hours_old else 4,
+            hours_old=hours_old,
             country=country,
             location=local,
         )
@@ -106,6 +108,12 @@ def main():
         df.to_csv("jobs_raw_table.csv", mode="a", header=write_header, index=False)
 
     print(f"************\nJob scraping completed at {datetime.datetime.now()}.")
+
+def hours_determination():
+    clock = datetime.datetime.now()
+    return clock.hour
+
+
 
 
 if __name__ == "__main__":

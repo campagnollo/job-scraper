@@ -149,7 +149,7 @@ class ScraperJobs:
 
             print(f"Scraped {len(jobs)} jobs for search query: '{search}'")
             df_search = pd.DataFrame(jobs)
-
+            df_search["search"] = search
             # If the requested location is Remote, remove non-remote rows.
             if config.location.strip().lower() == "remote" and "is_remote" in df_search.columns:
                 df_search = df_search[df_search["is_remote"].fillna(False)]
@@ -157,6 +157,7 @@ class ScraperJobs:
                 df = pd.concat([df, df_search], ignore_index=True)
             if not df.empty and "id" in df.columns:
                 df = df.drop_duplicates(subset=["id"])
+
         if "title" in df.columns:
             mask = df["title"].str.contains("|".join(_TITLES_TO_DROP), case=False, na=False)
             df = df[~mask]
